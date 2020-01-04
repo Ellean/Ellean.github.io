@@ -16,3 +16,4 @@ deploy:
   on:
     branch: source
   local-dir: public
+  target_branch: master
