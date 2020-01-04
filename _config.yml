@@ -8,7 +8,9 @@ subtitle: 'Who you are is all about what you know'
 description: ''
 keywords:
 author: Younntone Shih
-language: zh-CN
+language:
+  - zh-CN
+  - en
 timezone: 'Asia/Hong_Kong'
 
 # URL
