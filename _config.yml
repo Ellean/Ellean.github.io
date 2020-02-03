@@ -66,7 +66,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: daily
 category_map:
 tag_map:
 
@@ -92,7 +92,7 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 include:
 exclude:
-ignore:
+ignore: CNAME
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
