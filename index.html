@@ -145,12 +145,12 @@
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">1</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">2</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-项目归档-projects">
@@ -178,6 +178,117 @@
             
 
   <div class="posts-expand">
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.younnt.one/zh-CN/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97-Project-Log/e-shop-h5-init/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/my-icon.png">
+      <meta itemprop="name" content="Younntone Shih">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="楊">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/zh-CN/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97-Project-Log/e-shop-h5-init/" class="post-title-link" itemprop="url">第一篇 搭建项目</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-13 21:20:50" itemprop="dateCreated datePublished" datetime="2020-02-13T21:20:50+08:00">2020-02-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-02-14 00:41:59" itemprop="dateModified" datetime="2020-02-14T00:41:59+08:00">2020-02-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97-Project-Log/" itemprop="url" rel="index">
+                    <span itemprop="name">项目日志 Project Log</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/zh-CN/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97-Project-Log/e-shop-h5-init/" class="post-meta-item leancloud_visitors" data-flag-title="第一篇 搭建项目" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/zh-CN/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97-Project-Log/e-shop-h5-init/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/zh-CN/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97-Project-Log/e-shop-h5-init/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <a id="more"></a>
+
+<h2 id="1-初始化-Nuxt"><a href="#1-初始化-Nuxt" class="headerlink" title="1. 初始化 Nuxt"></a>1. 初始化 Nuxt</h2><figure class="highlight shell"><figcaption><span>Github/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npx create-nuxt-app &lt;项目名&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-引入-Vant"><a href="#2-引入-Vant" class="headerlink" title="2. 引入 Vant"></a>2. 引入 Vant</h2><p>安装 vant less less-loader</p>
+<figure class="highlight shell"><figcaption><span><项目名>/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm i -S vant </span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm i -D less less-loader</span></span><br></pre></td></tr></table></figure>
+
+<p>在 nuxt.config.js 文件里注册插件：</p>
+<figure class="highlight javascript"><figcaption><span>nuxt.config.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">build: &#123;</span><br><span class="line">  transpile: [<span class="regexp">/vant.*?less/</span>],</span><br><span class="line">  babel: &#123;</span><br><span class="line">    plugins: [</span><br><span class="line">      [</span><br><span class="line">        <span class="string">'import'</span>,</span><br><span class="line">        &#123;</span><br><span class="line">          libraryName: <span class="string">'vant'</span>,</span><br><span class="line">          style: <span class="function">(<span class="params">name</span>) =&gt;</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">`<span class="subst">$&#123;name&#125;</span>/style/less.js`</span></span><br><span class="line">          &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="string">'vant'</span></span><br><span class="line">      ]</span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-使用-Vant"><a href="#3-使用-Vant" class="headerlink" title="3. 使用 Vant"></a>3. 使用 Vant</h2><div class="tabs" id="import-method"><ul class="nav-tabs"><li class="tab active"><a href="#import-method-1">全局引用</a></li><li class="tab"><a href="#import-method-2">局部引用</a></li></ul><div class="tab-content"><div class="tab-pane active" id="import-method-1"><p>在 plugins 目录添加 vant.js 文件，全局引用 Vant 组件：</p>
+<figure class="highlight js"><figcaption><span>plugin/vant.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">'vue'</span></span><br><span class="line"><span class="keyword">import</span> Vant <span class="keyword">from</span> <span class="string">'vant'</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">'vant/lib/vant-css/index.css'</span></span><br><span class="line"></span><br><span class="line">Vue.use(Vant)</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="import-method-2"><p>在 页面 或者 模版 中局部引用 Vant 组建</p>
+<figure class="highlight js"><figcaption><span>pages/index.vue</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; Button &#125; <span class="keyword">from</span> <span class="string">'vant'</span></span><br></pre></td></tr></table></figure></div></div></div>
+
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
         
   
   
@@ -213,7 +324,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-02-14 00:36:24" itemprop="dateModified" datetime="2020-02-14T00:36:24+08:00">2020-02-14</time>
+                <time title="修改时间：2020-02-14 00:41:59" itemprop="dateModified" datetime="2020-02-14T00:41:59+08:00">2020-02-14</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -297,7 +408,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-02-14 00:36:24" itemprop="dateModified" datetime="2020-02-14T00:36:24+08:00">2020-02-14</time>
+                <time title="修改时间：2020-02-14 00:41:59" itemprop="dateModified" datetime="2020-02-14T00:41:59+08:00">2020-02-14</time>
               </span>
 
           
@@ -419,13 +530,17 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
