@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第一篇 搭建项目
+title: 基于 Nuxt + Vant 的自营电商项目(一)
 categories:
     - 项目日志 Project Log
 tags:
@@ -11,6 +11,8 @@ tags:
     - 前端
 date: 2020-02-13 21:20:50
 ---
+
+# 第一篇 搭建项目
 
 <!-- more -->
 
