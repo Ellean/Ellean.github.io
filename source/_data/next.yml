@@ -104,10 +104,10 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -122,8 +122,8 @@ scheme: Muse
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
   categories: /categories/ || th
+  tags: /tags/ || tags
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -351,7 +351,7 @@ android_chrome_color: "#222"
 safari_rainbow: true
 
 # Custom Logo (Do not support scheme Mist)
-custom_logo: /images/my-icon.png
+custom_logo:
 
 codeblock:
   # Code Highlight theme
@@ -474,11 +474,11 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: U1BnkRM-rH8Zl5GuEF3yUdEelliICyOXb-1N9aivyyw
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
-bing_site_verification:
+bing_site_verification: 782AB2E6C2DAAB15F90D4CDF1937526D
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru

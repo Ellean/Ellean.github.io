@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 重建博客
+categories: 
+    - 散记 Note
+    - 生活 Life
 date: 2020-01-03 15:41:38
 ---
 
